@@ -1,0 +1,403 @@
+﻿
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+
+body {
+    font-size:14px;
+    background: #000;
+
+
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', Sans-serif;
+
+}
+h4 {
+     line-height:30px;
+}
+
+
+
+.text-center {
+    text-align:center;
+}
+
+
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+
+}
+
+section {
+    padding-top:100px;
+    padding-bottom:30px;
+}
+.g-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar {
+	font-size: 18px;
+    font-family: sans-narrow;
+}
+
+.navbar-inverse {
+    /*aqui se cambia el color del fondo de la barra de menu ppal*/
+background: #000;
+min-height: 60px;
+padding-top: 5px;
+
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    /*aqui se cambia el color del titulo principal*/
+	color: #ccc;
+	font-weight: bolder;
+	font-size: 23px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #fff;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color: #ccc;
+}
+.navbar-inverse {
+border-color: #D6D6D6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: #ccc;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: #ccc;
+}
+.navbar-toggle {
+    background-color: white;
+}
+
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+#home-sec { 
+  
+    
+background: url(../img/Servicio-de-Escolta-1.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+   min-height:500px;
+    color:#fff;
+    
+}
+
+.head-main {
+    font-size:60px ;
+    font-weight:900;
+    padding:15px;
+    text-transform:uppercase;
+}
+
+.head-last {
+    margin-top:70px;
+    font-size:30px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    padding:5px;
+    font-family: Open Sans;
+
+}
+
+
+/*=======================================
+    SKILL BAR STYLES
+==================================================*/
+
+
+.progress-adjust {
+    height: 10px;
+     margin-bottom: 0px; 
+}
+.skill-div {
+    margin-top:10px; 
+}
+
+.progress {
+    min-height:40px;
+}
+
+/* ===========================================================
+    INTRO /ABOUT 
+   ============================================================*/
+.panel-title-adjust{
+font-size: 20px;
+padding: 5px;
+}
+
+    .panel-title-adjust a:hover {
+        text-decoration:none;
+    }
+.panel-title-adjust i {
+        padding-right:5px;
+    }
+/*=======================================
+    TESTIMONIAL STYLES
+==================================================*/
+
+#carousel-example {
+    margin:20px;
+
+}
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}
+
+.user-img {
+border: 2px solid #000;
+overflow: hidden;
+border-radius: 50%;
+display: inline-block;
+}
+
+.img-u {
+   max-height: 90px;
+max-width: 90px;
+}
+
+.c-set {
+    font-style: italic;
+font-size: 20px;
+padding: 15px;
+}
+#testimonial { 
+  
+    
+/*background: url(../img/secret-service-tajni-agenci-ochrona3872x2592.jpg) no-repeat 50% 50%;*/
+background: url(../img/Servicio-de-Escolta-1.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:200px;
+    color:#fff;
+}
+/* ===========================================================
+   PRICING STYLE   
+   ============================================================*/
+.plan {
+padding: 0 0 15px 0;
+margin: 30px 0px;
+list-style: none;
+text-align: center;
+}
+
+.active-plan-price {
+    -webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+.plan li {
+padding: 15px 0px;
+font-size: 16px;
+border-bottom: 1px dotted #e1e1e1;
+}
+
+.round-body {
+display: table;
+width: 135px;
+height: 135px;
+margin: 0 auto 14px auto;
+border: 3px solid #ffffff;
+border-radius: 100%;
+}
+.price-main {
+display: table-cell;
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+vertical-align: middle;
+}
+.price-Unit {
+display: block;
+}
+
+small {
+    font-size:10px!important;
+    font-weight:normal;
+}
+/*=======================================
+    Contact STYLES
+==================================================*/
+.qry {
+    background-color: #F3F3F3;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+.add {
+    color:#000;
+    font-size:15px;
+    font-weight:900;
+    padding:20px 10px 20px 5px;
+}
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+#footer {
+background-color: #FFFFFF;
+color: #000;
+padding: 20px 50px 20px 50px;
+text-align: right;
+border-top: 1px solid #d6d6d6;
+}
+/*Mis estilos 12-05-2017*/
+footer {
+    width: 100%;
+    float: left;
+    clear: both;
+    box-shadow: 0px 2px 2px #000;
+        -moz-box-shadow: 0px 2px 2px #000;
+        -webkit-box-shadow: 0px 2px 2px #000;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 0px;
+    background: #393838; /* Old browsers */
+    background: -moz-linear-gradient(top, #393838 0%, #555454 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #393838 0%,#555454 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #393838 0%,#555454 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393838', endColorstr='#555454',GradientType=0 );        
+}
+
+footer section {
+    width: 480px;
+    float: right;
+    padding: 20px;
+}
+
+footer #acerca-de {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: justify;
+    line-height: 20px;
+    left: 260px;
+    top: 30px;
+    padding-top: 100px;
+    padding-bottom:90px;
+}
+footer #acerca-de h2 {
+    font-family: sourcesans-light;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+
+}
+
+footer #redes-s > div {
+    width: 220px;
+    height: 60px;
+    float: left;
+    background: #ff8000;
+    opacity: 0.5;
+    top: 0px;
+    left: -450px;
+
+}
+
+footer #redes-s > div a {
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+}
+
+footer #redes-s .facebook {
+    background: url(../img/facebook.png);
+    margin-bottom: 15px;
+}
+footer #redes-s .instagram {
+    background: url(../img/instagram.png);
+    margin-bottom: 15px;
+}
+footer #redes-s .myspace {
+    background: url(../img/myspace.png);
+
+}
+footer #redes-s .youtube {
+    background: url(../img/youtube.png);
+}
+footer #redes-s > div:hover {
+    opacity: 1;
+}
+
+.color-temp{
+    font-style: color:white;
+}
+/*=======================================
+    MEDIA QUERIES
+    
+    ==================================================*/
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+
+.relleno{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
