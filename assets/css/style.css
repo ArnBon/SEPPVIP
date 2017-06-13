@@ -17,7 +17,7 @@
 
 body {
     font-size:14px;
-    background: #000;
+    background: #272927;
 
 
    
@@ -68,7 +68,7 @@ section {
 
 .navbar-inverse {
     /*aqui se cambia el color del fondo de la barra de menu ppal*/
-background: #000;
+background: #272927;
 min-height: 60px;
 padding-top: 5px;
 
@@ -104,7 +104,7 @@ border-color: #ccc;
 color: #ccc;
 }
 .navbar-toggle {
-    background-color: #000;
+    background-color: #272927;
 }
 
 /*=======================================
