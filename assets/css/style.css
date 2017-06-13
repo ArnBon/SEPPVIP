@@ -330,8 +330,8 @@ footer {
 
 footer section {
     width: 480px;
-    float: right;
-    padding: 10px;
+    float: left;
+    padding: 20px;
 }
 
 footer #acerca-de {
@@ -340,28 +340,31 @@ footer #acerca-de {
     color: #cccccc;
     text-align: justify;
     line-height: 20px;
-    left: 100px;
+    /*left: 100px;
     top: 30px;
     padding-top: 100px;
-    padding-bottom:90px;
+    padding-bottom:90px;*/
 }
 footer #acerca-de h2 {
     font-family: sourcesans-light;
     font-size: 14px;
     color: #fff;
     margin-bottom: 5px;
+}
 
+footer #acerca-de h3 {
+    font-family: sourcesans-light;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
 }
 
 footer #redes-s > div {
     width: 200px;
     height: 60px;
-    float: left;
+    float: right;
     background: #ff8000;
     opacity: 0.5;
-    top: 0px;
-    right: 200px;
-
 }
 
 footer #redes-s > div a {
@@ -400,9 +403,3 @@ footer #redes-s > div:hover {
         font-size:28px ;
     }
 }
-
-.relleno{
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
