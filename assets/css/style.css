@@ -321,17 +321,18 @@ footer {
     border-radius: 5px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 0px;
-    background: #393838; /* Old browsers */
-    background: -moz-linear-gradient(top, #393838 0%, #555454 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #393838 0%,#555454 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #393838 0%,#555454 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393838', endColorstr='#555454',GradientType=0 );        
+    background: #272927; /* Old browsers */
+    background: -moz-linear-gradient(top, #272927); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #272927); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #272927); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='272927', endColorstr='#272927',GradientType=0 );        
 }
 
 footer section {
     width: 480px;
     float: left;
     padding: 20px;
+    background: #272927;
 }
 
 footer #acerca-de {
@@ -340,10 +341,7 @@ footer #acerca-de {
     color: #cccccc;
     text-align: justify;
     line-height: 20px;
-    /*left: 100px;
-    top: 30px;
-    padding-top: 100px;
-    padding-bottom:90px;*/
+    
 }
 footer #acerca-de h2 {
     font-family: sourcesans-light;
@@ -363,7 +361,7 @@ footer #redes-s > div {
     width: 200px;
     height: 60px;
     float: right;
-    background: #ff8000;
+    background: #272927;
     opacity: 0.5;
 }
 
