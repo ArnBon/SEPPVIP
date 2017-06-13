@@ -81,7 +81,7 @@ padding-top: 5px;
 
 .navbar-inverse .navbar-brand {
     /*aqui se cambia el color del titulo principal*/
-	color: #ccc;
+	color: #FFcc66;
 	font-weight: bolder;
 	font-size: 46px;
     font-weight:600;
@@ -91,7 +91,7 @@ padding-top: 5px;
 	color: #fff;	
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #ccc;
+color: #FFcc66;
 }
 .navbar-inverse {
 border-color: #D6D6D6;
