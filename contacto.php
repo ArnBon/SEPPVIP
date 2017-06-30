@@ -1,5 +1,5 @@
 <?php
-$des = "proteccion_protocolar@hotmail.com";
+$des = "proteccion_vip_@hotmail.com";
 $nom = $_POST['nombre'];
 $cor = $_POST['correo'];
 $tel = $_POST['telf'];
